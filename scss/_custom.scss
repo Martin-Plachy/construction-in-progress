@@ -1,0 +1,74 @@
+// scss-docs-start theme-color-variables
+$primary:       #d48d04;
+$success:       #9b6706;
+$danger:        #d48d04;
+
+$font-size-base:              1rem;
+$h2-font-size:                $font-size-base * 1.5;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+:root{
+    --bs-body-font-family: 'Oswald', sans-serif;
+}
+
+html,
+body,
+main {
+  height: 100%;
+}
+
+/* Landscape phones and portrait tablets */
+@include media-breakpoint-up(lg) {
+    .container {
+        box-shadow: $box-shadow-lg;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    .logo {
+        width: 50%;
+    }
+  }
+  
+  @include media-breakpoint-up(sm) {
+    .logo {
+        width: 70%;
+    }
+  }
+  
+  @include media-breakpoint-down(sm) {
+    .logo {
+        width: 70%;
+    }
+  }
+  
+  @media (min-height: 450px) {
+    .header-text {
+      margin-top: 3rem;
+    }
+    .footer-text {
+      margin-top: 3rem;
+    }
+  }
+  
+  @media (max-height: 450px) {
+    .logo {
+      width: 40%;
+    }
+    .h1 {
+      font-size: 1.75rem;
+    }
+    .h2 {
+      font-size: 1.25rem;
+    }
+    .header-text {
+      margin-top: 1.25rem;
+    }
+    .footer-text {
+      margin-top: 2rem;
+      font-size: 0.75rem;
+    }
+  }
