@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /img/
+Allow: /img/logo.png
+Disallow: /js/
+Disallow: /.htaccess
+Disallow: /404.html
+Disallow: /style.css
