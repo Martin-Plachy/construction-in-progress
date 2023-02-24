@@ -1,0 +1,17 @@
+{
+  "name": "construction-in-progress",
+  "version": "1.0.0",
+  "description": "A simple \"construction in progress\" HTML page with CSS styling.",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "construction",
+    "email"
+  ],
+  "author": "Martin Plachý",
+  "license": "ISC"
+}
