@@ -13,5 +13,8 @@
     "email"
   ],
   "author": "Martin Plachý",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
 }
