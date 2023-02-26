@@ -5,3 +5,4 @@ Disallow: /js/
 Disallow: /.htaccess
 Disallow: /404.html
 Disallow: /style.css
+Sitemap: https://timidusrevize.cz/sitemap.xml
