@@ -20,6 +20,10 @@ main {
   height: 100%;
 }
 
+textarea {
+  resize: none;
+}
+
 /* Landscape phones and portrait tablets */
 @include media-breakpoint-up(lg) {
     .container {
@@ -70,5 +74,28 @@ main {
     .footer-text {
       margin-top: 2rem;
       font-size: 0.75rem;
+    }
+  }
+
+  @media (max-height: 750px) {
+    #comment {
+      height: 9rem;
+    }
+  }
+
+  @media (min-height: 750px) {
+    #comment {
+      height: 12rem;
+    }
+  }
+
+  .g-recaptcha {
+    display: inline-block;
+}
+
+  .email-address {
+    text-decoration: none;
+    &:hover {
+      color: $primary !important;
     }
   }
