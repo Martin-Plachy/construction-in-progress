@@ -10780,6 +10780,10 @@ main {
   height: 100%;
 }
 
+textarea {
+  resize: none;
+}
+
 /* Landscape phones and portrait tablets */
 @media (min-width: 992px) {
   .container {
@@ -10826,6 +10830,26 @@ main {
     margin-top: 2rem;
     font-size: 0.75rem;
   }
+}
+@media (max-height: 750px) {
+  #comment {
+    height: 9rem;
+  }
+}
+@media (min-height: 750px) {
+  #comment {
+    height: 12rem;
+  }
+}
+.g-recaptcha {
+  display: inline-block;
+}
+
+.email-address {
+  text-decoration: none;
+}
+.email-address:hover {
+  color: #d48d04 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
