@@ -1,3 +1,7 @@
+function fillInCurrentYear() {
+    document.getElementById("current-year").innerText = new Date().getFullYear();
+}
+
 function encodeEmail() {
     const encodedExampleEmailAddress = "am1lbm9AcHJpa2xhZC5jeg==";
     const encodedEmailAddress = "cmV2aXplQHRpbWlkdXNyZXZpemUuY3o=";
@@ -124,6 +128,7 @@ function formSend() {
     });
 }
 
+fillInCurrentYear();
 encodeEmail();
 telNumberFormatter();
 formValidate();
